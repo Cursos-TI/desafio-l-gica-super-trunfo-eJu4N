@@ -126,6 +126,7 @@ int main() {
     scanf("%d", &opcao);
     switch (opcao) {
         case 1:
+            // Exibicao de nomes da cidade:
             printf("Carta 1: %s\n", nome_da_cidade1);
             printf("Carta 2: %s\n", nome_da_cidade2);
         break;
@@ -165,6 +166,7 @@ int main() {
             }
         break;
         case 4:
+            // Comparação de Cartas(PIB):
             printf("\n");
             printf("Comparacao de cartas(PIB): \n");
             if (pib1 > pib2) {
@@ -180,6 +182,7 @@ int main() {
             }
         break;
         case 5:
+            // Comparação de Cartas(Pontos Turisticos):
             printf("\n");
             printf("Comparacao de cartas(Numero de pontos turisticos): \n");
             if (numero_pontos_turisticos1 > numero_pontos_turisticos2) {
@@ -195,6 +198,7 @@ int main() {
             }
         break;
         case 6:
+            // Comparação de Cartas(Densidade populacional):
             printf("\n");
             printf("Comparacao de cartas(Densidade_Populacional): \n");
             if (densidade_populacional1 < densidade_populacional2) {
